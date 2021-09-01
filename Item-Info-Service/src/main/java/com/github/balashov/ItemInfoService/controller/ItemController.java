@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/items")
 public class ItemController {
 
-    public final ItemService itemService;
+    private final ItemService itemService;
 
     public ItemController(ItemService itemService) {
         this.itemService = itemService;

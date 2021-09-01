@@ -3,9 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Customer-Info-Service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Customer-Info-Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Discovery-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Discovery-Server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Item-Info-Service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Item-Info-Service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Order-Info-Service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Order-Info-Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User-Service/src/main/resources" charset="UTF-8" />
   </component>
 </project>

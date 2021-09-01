@@ -2,7 +2,6 @@ package com.github.balashov.ItemInfoService.service;
 
 import com.github.balashov.ItemInfoService.domain.Item;
 import com.github.balashov.ItemInfoService.repository.ItemRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -13,8 +12,11 @@ import java.util.Set;
 @Service
 public class ItemService {
 
-    @Autowired
-    private ItemRepository itemRepository;
+    private final ItemRepository itemRepository;
+
+    public ItemService(ItemRepository repository) {
+        this.itemRepository = repository;
+    }
 
     public Mono<Long> count() {
         return itemRepository.count();
